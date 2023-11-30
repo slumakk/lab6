@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'agency';
+$dbname = 'lab_5';
 $username = 'root';
-$password = 'root';
+$password = '';
 ?>

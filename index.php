@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Структура бази даних agency</h1>
+<h1>Структура бази даних lab_5</h1>
 <img src="db.png" alt="">
 
 <ul>
@@ -19,7 +19,7 @@
     try {
         $stmt = $pdo->query("show tables");
         while ($row = $stmt->fetch(PDO::FETCH_ASSOC)) {
-            printf("<li><a href='show.php?table=%s'>Таблиця %s</a></li>", $row['Tables_in_agency'], $row['Tables_in_agency']);
+            printf("<li><a href='show.php?table=%s'>Таблиця %s</a></li>", $row['Tables_in_lab_5'], $row['Tables_in_lab_5']);
         };
         
         printf("</table>");
